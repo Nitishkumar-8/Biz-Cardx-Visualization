@@ -70,7 +70,7 @@ st.write("")
 
 
 with st.sidebar:
-  select= option_menu("Mani Menu",["Home", "Upload & Modifying", "Delete"])
+  select= option_menu("Main Menu",["Home", "Upload & Modifying", "Delete"])
 
 if select == "Home":
   st.markdown("### :green[**Technologies Used :**] Python,easy OCR, Streamlit, SQL, Pandas")
